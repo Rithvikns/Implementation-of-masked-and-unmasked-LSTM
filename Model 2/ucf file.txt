@@ -1,0 +1,7 @@
+
+NET "clk"                LOC="J3"   | IOSTANDARD="LVCMOS25";   
+NET "reset"               LOC="P2"   | IOSTANDARD="LVCMOS25" | TIG;  
+NET "y_out<0>"               LOC="F1"   | IOSTANDARD="LVCMOS25" | SLEW="SLOW" | DRIVE=4;
+NET "y_out<1>"               LOC="G1"   | IOSTANDARD="LVCMOS25" | SLEW="SLOW" | DRIVE=4;
+NET "y_out<2>"               LOC="H3"   | IOSTANDARD="LVCMOS25" | SLEW="SLOW" | DRIVE=4; 
+NET "y_out<3>"               LOC="H4"   | IOSTANDARD="LVCMOS25" | SLEW="SLOW" | DRIVE=4;
